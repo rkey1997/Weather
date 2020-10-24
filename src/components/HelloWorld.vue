@@ -133,7 +133,7 @@ export default {
 
       this.axios
         .get(
-          "http://api.weatherapi.com/v1/current.json?key=ef2e910952854482b64110233201910",
+          "https://api.weatherapi.com/v1/current.json?key=ef2e910952854482b64110233201910",
           {
             params: {
               q: capitalizeFirstLetter(this.city),
